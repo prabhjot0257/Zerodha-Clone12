@@ -7,5 +7,3 @@ function Awards() {
 }
 
 export default Awards; 
-
-Hello
