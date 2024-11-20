@@ -8,6 +8,10 @@ const uri = process.env.MONGO_URL;
 
 const app = express();
 
+app.get('/addHoldings', async(req, res) => {
+    
+});
+
 app.listen(PORT, () => {
     console.log('App Started!');
     mongoose.connect(uri);
